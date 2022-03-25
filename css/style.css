@@ -564,7 +564,6 @@ width: 100px;
 .footer .sub-footer .text-right-left {
     text-align: right!important;
 }
-<<<<<<< HEAD
 /* slide 2 */
 .slide-2 {
     background: #FBF9F9;
@@ -591,8 +590,6 @@ width: 100px;
     -webkit-transition: all .5s;
     transition: all .5s;
 }
-=======
-
 /* welcom */
 .welcom {
 position: relative;
@@ -613,5 +610,4 @@ position: relative;
 }
 .welcom .homepage-about {
     background-color: #fff;
-}  
->>>>>>> 346fdf9f50421cdc83906c1c296a11cd2f9c8532
+} 
