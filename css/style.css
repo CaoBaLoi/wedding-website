@@ -278,3 +278,208 @@ width: 100px;
     border-top: 1px solid #a2783a;
     margin: 0 0 20px 0;
 }
+
+/* client-love */
+.client-love {
+  position: relative;
+  padding-bottom: 0;
+  z-index: 3;
+  padding: 120px 0 15px 0;
+}
+.client-love .background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 120px;
+  width: 100%;
+  z-index: -1;
+}
+.client-love .background img{
+    width: 100%;
+}
+.client-love .testim {
+  position: relative;
+}
+.client-love .box {
+  padding: 15px;
+}
+.client-love .item {
+  padding: 50px 30px;
+  -webkit-box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.07);
+          box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.07);
+  border-radius: 5px;
+  background: #fff;
+}
+.client-love .item .img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: table-cell;
+  position: relative;
+}
+.client-love .item .img:after {
+  content: '';
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  top: -4px;
+  left: -4px;
+  border-radius: 50%;
+  border: 2px solid rgba(248,244,243,1);
+}
+.client-love .item .img img {
+  width: 70px;
+  height: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+  border-radius: 50%;
+}
+.client-love .item p {
+  margin-top: 20px;
+  color: #505050;
+  margin-bottom: 0;
+}
+.client-love .item .info {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.client-love h2,
+.client-love h6 {
+    color: #fff;
+}
+
+.client-love .line-hr-center {
+    width: 60px;
+    border-top: 1px solid #fff;
+}
+
+.client-love .sec-head .tbg {
+    color: #fff;
+    opacity: 0.25;
+}
+.client-love .item .info h5 {
+    font-family: 'Old Standard TT', serif;
+    margin-bottom: 0;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #000;
+    text-transform: none;
+    line-height: 1em;
+}
+.client-love .item .info span {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+    color: #a2783a;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+/* footer */
+.footer {
+    padding: 100px 0 0;
+}
+.footer.dark {
+    background: #a2783a;
+    color: #fff;
+}
+.footer .abot p {
+    color: #fff;
+}
+
+.footer .abot .logo img {
+    height: 65px;
+    width: auto;
+    display: block;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.footer .abot .social-icon {
+    margin-top: 20px;
+}
+.footer .abot .social-icon a {
+    font-size: 15px;
+    margin-right: 10px;
+    color: #fff;
+}
+.footer .abot .social-icon a:hover {
+    color: #fff;
+}
+.footer .usful-links ul {
+    margin: 0;
+    padding: 0;
+}
+.footer .usful-links ul li {
+    margin-bottom: 5px;
+}
+.footer .usful-links ul li:hover {
+    color: #a2783a;
+}
+.footer .usful-links ul li i {
+    font-size: 7px;
+    color: #fff;
+    margin-right: 3px;
+}
+.footer .usful-links ul li a {
+    color: #fff;
+}
+.footer .fothead h6 {
+    color: #fff;
+    font-size: 20px;
+}
+.footer .fotcont .fothead h6 {
+    position: relative;
+    padding-bottom: 5px;
+}
+.footer .fotcont .fothead h6:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.05);
+    height: 1px;
+}
+.footer .fotcont p {
+    margin-bottom: 0px;
+    color: #fff;
+}
+.footer .sub-footer {
+    padding: 30px 0;
+    margin-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+.footer .sub-footer p {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 0;
+}
+.footer .sub-footer p a {
+   color: #fff;
+}
+.footer .logo h2 {
+    font-family: 'Signatie';
+    font-weight: normal;
+    font-size: 30px;
+    color: #fff;
+    line-height: 1.25em;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.footer .logo span {
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 9px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.25em;
+}
+
+.footer .sub-footer .text-right-left {
+    text-align: right!important;
+}
