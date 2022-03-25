@@ -79,7 +79,7 @@
 .bg-light {
     background-color: #fff !important;
 }
-/* .bethany-homepage-slider {
+.bethany-homepage-slider {
     padding-top: 170px;
     outline: none;
     background-color: rgba(245,240,236,1);
@@ -156,7 +156,7 @@
 
 .bethany-slider-container {
     padding: 0;
-} */
+}
 /* About */
 .homepage-about{
     width: 100%;
@@ -219,6 +219,10 @@
 /* wedding-date */
 .bg-1{
     background-color: rgb(255, 248, 244);
+}
+.wedding-date{
+    padding: 120px 0;
+    position: relative;
 }
 .wedding-date-table{
     width: 100%;
@@ -378,6 +382,84 @@ width: 100px;
     letter-spacing: 3px;
     text-transform: uppercase;
 }
+/* blog */
+.blog{
+    padding: 120px 0;
+}
+.blog .img {
+    position: relative;
+    overflow: hidden;
+}
+.blog .img:hover img {
+    filter: none;
+    transform: scale(1.09, 1.09);
+    transition: all 1s ease;
+}
+.blog .content {
+    width: 100%;
+    padding: 30px 60px;
+}
+.blog .content .date {
+    display: table-cell;
+    position: relative;
+    width: 80px;
+    z-index: 2;
+}
+.blog .content .date h3 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #a2783a;
+    margin-bottom: 0px;
+}
+.blog .content .date h6 {
+    color: #505050;
+    letter-spacing: 2px;
+    font-size: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.blog .content .cont {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 15px;
+}
+.blog .content .cont h4 {
+    margin: 15px 0;
+    font-size: 25px;
+}
+.blog .content .cont .more {
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #a2783a;
+    padding-left: 40px;
+    position: relative;
+}
+.blog .content .cont .more:after {
+    content: '';
+    width: 30px;
+    height: 1px;
+    background: #a2783a;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+}
+.blog .content .cont .more:hover {
+     color: #000; 
+}
+.blog .content .info h6 {
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: #505050;
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.blog .content .info .tags {
+    color: #a2783a;
+}
 /* footer */
 .footer {
     padding: 100px 0 0;
@@ -389,7 +471,6 @@ width: 100px;
 .footer .abot p {
     color: #fff;
 }
-
 .footer .abot .logo img {
     height: 65px;
     width: auto;
@@ -482,4 +563,30 @@ width: 100px;
 
 .footer .sub-footer .text-right-left {
     text-align: right!important;
+}
+/* slide 2 */
+.slide-2 {
+    background: #FBF9F9;
+    padding: 30px 0;
+}
+.slide-2 .owl-carousel {
+    margin: 0;
+}
+.slide-2 .slide-2-logo {
+    opacity: 1;
+    line-height: 0;
+}
+.slide-2 .slide-2-logo:hover {
+    opacity: 1;
+}
+.slide-2 img {
+    -webkit-filter: none;
+    filter: none;
+    border: 1px solid #FBF9F9;
+}
+.slide-2 img:hover {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: all .5s;
+    transition: all .5s;
 }
