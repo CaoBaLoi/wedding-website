@@ -590,6 +590,7 @@ width: 100px;
     -webkit-transition: all .5s;
     transition: all .5s;
 }
+
 /* welcom */
 .welcom {
 position: relative;
@@ -611,4 +612,3 @@ position: relative;
 .welcom .homepage-about {
     background-color: #fff;
 }
-
