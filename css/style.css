@@ -564,6 +564,33 @@ width: 100px;
 .footer .sub-footer .text-right-left {
     text-align: right!important;
 }
+/* slide 2 */
+.slide-2 {
+    background: #FBF9F9;
+    padding: 30px 0;
+}
+.slide-2 .owl-carousel {
+    margin: 0;
+}
+.slide-2 .slide-2-logo {
+    opacity: 1;
+    line-height: 0;
+}
+.slide-2 .slide-2-logo:hover {
+    opacity: 1;
+}
+.slide-2 img {
+    -webkit-filter: none;
+    filter: none;
+    border: 1px solid #FBF9F9;
+}
+.slide-2 img:hover {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
 /* welcom */
 .welcom {
 position: relative;
