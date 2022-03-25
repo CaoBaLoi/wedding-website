@@ -483,3 +483,25 @@ width: 100px;
 .footer .sub-footer .text-right-left {
     text-align: right!important;
 }
+
+/* welcom */
+.welcom {
+position: relative;
+  padding-bottom: 0;
+  z-index: 3;
+  padding: 120px 0 15px 0;
+}
+.welcom .background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 120px;
+  width: 100%;
+  z-index: -1;
+}
+.welcom .background img{
+    width: 100%
+}
+.welcom .homepage-about {
+    background-color: #fff;
+}  
