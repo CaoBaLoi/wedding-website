@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg no-smil svgclippaths" lang="en">
+<head>
+<title></title>
+<style>
+*, ::after, ::before {
+	box-sizing: border-box;
+}
+.section-padding {
+	position: relative;
+	padding: 120px 0;
+}
+body {
+	margin: 0;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	text-align: left;
+	background-color: #fff;
+}
+html {
+	font-family: sans-serif;
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-ms-overflow-style: scrollbar;
+	-webkit-tap-highlight-color: transparent;
+}
+html, body {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+}
+body {
+	font-family: "Nunito Sans", sans-serif;
+	color: #505050;
+	font-size: 15px;
+	line-height: 1.75em;
+	font-weight: 300;
+	position: relative;
+}
+:root {
+	--blue:#007bff: ;
+	--indigo:#6610f2: ;
+	--purple:#6f42c1: ;
+	--pink:#e83e8c: ;
+	--red:#dc3545: ;
+	--orange:#fd7e14: ;
+	--yellow:#ffc107: ;
+	--green:#28a745: ;
+	--teal:#20c997: ;
+	--cyan:#17a2b8: ;
+	--white:#fff: ;
+	--gray:#6c757d: ;
+	--gray-dark:#343a40: ;
+	--primary:#007bff: ;
+	--secondary:#6c757d: ;
+	--success:#28a745: ;
+	--info:#17a2b8: ;
+	--warning:#ffc107: ;
+	--danger:#dc3545: ;
+	--light:#f8f9fa: ;
+	--dark:#343a40: ;
+	--breakpoint-xs:0: ;
+	--breakpoint-sm:576px: ;
+	--breakpoint-md:768px: ;
+	--breakpoint-lg:992px: ;
+	--breakpoint-xl:1200px: ;
+	--font-family-sans-serif:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji": ;
+	--font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace: ;
+}
+.container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+/* @media all and (min-width:576px) */
+.container {
+	max-width: 540px;
+}
+/* @media all and (min-width:768px) */
+.container {
+	max-width: 720px;
+}
+/* @media all and (min-width:992px) */
+.container {
+	max-width: 960px;
+}
+/* @media all and (min-width:1200px) */
+.container {
+	max-width: 1140px;
+}
+.container {
+	padding-right: 30px;
+	padding-left: 30px;
+}
+.row {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+	position: relative;
+	width: 100%;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+/* @media all and (min-width:768px) */
+.col-md-4 {
+	-ms-flex: 0 0 33.333333%;
+	flex: 0 0 33.333333%;
+	max-width: 33.33%;
+}
+.gallery-item {
+	position: relative;
+	margin-bottom: 30px;
+}
+a {
+	color: #007bff;
+	text-decoration: none;
+	background-color: transparent;
+	-webkit-text-decoration-skip: objects;
+}
+a {
+	color: #000;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+a:link {
+	text-decoration: none;
+}
+.gallery-box {
+	overflow: hidden;
+	position: relative;
+}
+.gallery-box .gallery-img {
+	position: relative;
+	overflow: hidden;
+}
+.gallery-box .gallery-img::after {
+	content: " ";
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
+}
+/* @media all and (min-width:768px) */
+.col-md-12 {
+	-ms-flex: 0 0 100%;
+	flex: 0 0 100%;
+	max-width: 100%;
+}
+.text-center {
+	text-align: center !important;
+}
+.gallery-box .gallery-detail {
+	opacity: 0;
+	color: #ffffff;
+	width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+	position: absolute;
+	left: 0px;
+	overflow: hidden;
+	transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
+}
+[class^='ti-'], [class*=' ti-'] {
+	font-family: "themify";
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.ti-heart::before {
+	content: "\e634";
+}
+img {
+	vertical-align: middle;
+	border-style: none;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+img {
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	color: #000;
+}
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+.d-block {
+	display: block !important;
+}
+.mr-auto, .mx-auto {
+	margin-right: auto !important;
+}
+.ml-auto, .mx-auto {
+	margin-left: auto !important;
+}
+.gallery-box .gallery-img > img {
+	transition: all 0.3s cubic-bezier(0.3, 0.1, 0.58, 1);
+	border-radius: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0px;
+	margin-bottom: 0.5rem;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 0.5rem;
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.2;
+	color: inherit;
+}
+.h2, h2 {
+	font-size: 2rem;
+}
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.5em;
+	font-weight: 400;
+	font-family: "Old Standard TT", serif;
+	color: #000;
+}
+h2 {
+	font-size: 35px;
+}
+.section-padding h2 {
+	position: relative;
+	margin-bottom: 5px;
+	font-size: 35px;
+}
+hr {
+	box-sizing: content-box;
+	height: 0px;
+	overflow: visible;
+}
+hr {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	border: 0;
+	border-top: 1px solid rgba(0, 0, 0, .1);
+}
+hr {
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+.line-hr-center {
+	width: 60px;
+	border-top: 1px solid #a2783a;
+}
+</style>
+</head>
+<body><div class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>Photo Gallery</h2>
+                    <hr class="line line-hr-center">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 gallery-item">
+                    <a title="" class="img-zoom" href="images/gallery/1.jpg">
+                        <div class="gallery-box">
+                            <div class="gallery-img"> <img class="img-fluid mx-auto d-block" alt="" src="https://c1.staticflickr.com/9/8534/27914204454_1dca3b451c_o.jpg"> </div>
+                            <div class="gallery-detail text-center"> <i class="ti-heart"></i> </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-item">
+                    <a title="" class="img-zoom" href="images/gallery/2.jpg">
+                        <div class="gallery-box">
+                            <div class="gallery-img"> <img class="img-fluid mx-auto d-block" alt="" src="https://c2.staticflickr.com/8/7531/28453121051_0e5be8ab41_o.jpg"> </div>
+                            <div class="gallery-detail text-center"> <i class="ti-heart"></i> </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-item">
+                    <a title="" class="img-zoom" href="images/gallery/3.jpg">
+                        <div class="gallery-box">
+                            <div class="gallery-img"> <img class="img-fluid mx-auto d-block" alt="" src="https://c1.staticflickr.com/9/8727/27914977213_0d0ac06242_o.jpg"> </div>
+                            <div class="gallery-detail text-center"> <i class="ti-heart"></i> </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-item">
+                    <a title="" class="img-zoom" href="images/gallery/4.jpg">
+                        <div class="gallery-box">
+                            <div class="gallery-img"> <img class="img-fluid mx-auto d-block" alt="" src="https://c1.staticflickr.com/9/8424/28247137730_f2a5f37f56_o.jpg"> </div>
+                            <div class="gallery-detail text-center"> <i class="ti-heart"></i> </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-item">
+                    <a title="" class="img-zoom" href="images/gallery/5.jpg">
+                        <div class="gallery-box">
+                            <div class="gallery-img"> <img class="img-fluid mx-auto d-block" alt="" src="https://c1.staticflickr.com/9/8848/27914976283_d9019d62c3_o.jpg"> </div>
+                            <div class="gallery-detail text-center"> <i class="ti-heart"></i> </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-item">
+                    <a title="" class="img-zoom" href="images/gallery/9.jpg">
+                        <div class="gallery-box">
+                            <div class="gallery-img"> <img class="img-fluid mx-auto d-block" alt="" src="https://c2.staticflickr.com/8/7751/28453120001_dbb3ba215d_o.jpg"> </div>
+                            <div class="gallery-detail text-center"> <i class="ti-heart"></i> </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-item">
+                    <a title="" class="img-zoom" href="images/gallery/7.jpg">
+                        <div class="gallery-box">
+                            <div class="gallery-img"> <img class="img-fluid mx-auto d-block" alt="" src="https://c1.staticflickr.com/9/8661/28247137260_a19f9d089c_o.jpg"> </div>
+                            <div class="gallery-detail text-center"> <i class="ti-heart"></i> </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-item">
+                    <a title="" class="img-zoom" href="images/gallery/8.jpg">
+                        <div class="gallery-box">
+                            <div class="gallery-img"> <img class="img-fluid mx-auto d-block" alt="" src="https://c1.staticflickr.com/9/8595/28453119541_98567517bc_o.jpg"> </div>
+                            <div class="gallery-detail text-center"> <i class="ti-heart"></i> </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-item">
+                    <a title="" class="img-zoom" href="images/gallery/6.jpg">
+                        <div class="gallery-box">
+                            <div class="gallery-img"> <img class="img-fluid mx-auto d-block" alt="" src="https://cdn.alongwalker.co/vn/wp-content/uploads/2022/03/24200113/image-kham-pha-top-5-studio-chup-anh-cuoi-dep-o-vinh-164810167368170.jpg"> </div>
+                            <div class="gallery-detail text-center"> <i class="ti-heart"></i> </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div></body>
+</html>
