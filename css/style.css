@@ -79,15 +79,26 @@
 .bg-light {
     background-color: #fff !important;
 }
+/* slider */
 .bethany-homepage-slider {
     padding-top: 170px;
     outline: none;
     background-color: rgba(245,240,236,1);
     padding-bottom: 60px;
+    position: relative;
 }
-.bethany-slider-item {
+.bethany-slider .bethany-slider-item {
     position: relative;
     outline: none;
+    height: 500px;
+}
+.bethany-homepage-slider .container{
+    width: 60%;
+}
+.bethany-slider-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 .bethany-homepage-slider .bethany-slider-item {
     margin-left: 5px;
@@ -112,17 +123,6 @@
     opacity: 0;
     padding: 20px;
     display: flex;
-}
-.bethany-slider-imghover {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    opacity: 0;
-    background: rgba(255, 255, 255,0.75);
-    -webkit-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
 }
 .bethany-slider-item:hover .bethany-slider-caption {
     opacity: 1;
@@ -289,17 +289,10 @@ width: 100px;
   padding-bottom: 0;
   z-index: 3;
   padding: 120px 0 15px 0;
-}
-.client-love .background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 120px;
-  width: 100%;
-  z-index: -1;
-}
-.client-love .background img{
-    width: 100%;
+  background-image: url(/images/banner/2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 .client-love .testim {
   position: relative;
@@ -611,4 +604,210 @@ position: relative;
 }
 .welcom .homepage-about {
     background-color: #fff;
+}
+/* banner */
+.banner-header {
+    height: 50vh;
+    background-position: center;
+    margin-top: 105px;
+}
+.banner-header h1 {
+    font-size: 45px;
+    font-family: 'Signatie';
+    font-weight: normal;
+    color: #fff;
+    position: relative;
+    margin-bottom: 0;
+}
+/* services */
+.banner-services{
+    position: relative;
+    padding-bottom: 0;
+    z-index: 3;
+    padding: 120px 0 15px 0;
+    background-image: url(/images/banner/1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;   
+}
+.services-item {
+    margin-left: 5px;
+    margin-bottom: 40px;
+    position: relative;
+    outline: none;
+    width: 100%;
+}
+
+.services-caption {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    transition: opacity .2s ease-out;
+    background-color: rgba(255, 255, 255,0.75);
+    width: 90%;
+    height: 90%;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    padding: 20px;
+    display: flex;
+}
+.services-item:hover .services-caption {
+    opacity: 1;
+}
+.services-title {
+    font-size: 25px;
+    line-height: 1.5em;
+    font-weight: 400;
+    color: #000;
+    padding: 0;
+    font-family: 'Old Standard TT', serif;
+    margin-bottom: 10px;
+}
+.services-subtitle {
+    font-size: 20px;
+    line-height: 1.5em;
+    font-weight: normal;
+    color: #000;
+    padding: 0;
+    font-family: 'Signatie';
+    margin-bottom: 10px;
+}
+.our-services .container{
+    padding: 0;
+    width: 60%;
+    padding: 0 30px;
+    margin-top: 120px;
+}
+.our-services .services-img{
+    width: 100%;
+}
+/* price */
+.price{
+    padding: 120px 0;
+    width: 100%;
+}
+.price .container{
+    width: 60%;
+}
+.price .item {
+    padding: 60px 30px;
+    background: #fff;
+    text-align: center;
+    transition: all .4s;
+    margin: 10px 0;
+}
+.price .item .type {
+    position: relative;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+.price .item .type:after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    background: #fff;
+    position: absolute;
+    bottom: -11px;
+    left: calc(50% - 10px);
+    transform: rotate(45deg);
+}
+.price .item .type h6 {
+    position: relative;
+    color: #000;
+    font-family: 'Old Standard TT', serif;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.price .item .value {
+    margin: 30px 0;
+}
+.price .item .value h4 {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.price .item .value h4 span {
+    font-size: 15px;
+}
+.price .item .value p {
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 0px;
+    color: #a2783a;
+    text-transform: uppercase;
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 3px;
+}
+.price .item .feat ul {
+    margin-bottom: 30px;
+    padding: 0;
+}
+.price .item .feat li {
+    color: #505050;
+    margin-bottom: 10px;
+    list-style: none;
+}
+.price .item .feat li:last-child {
+    margin-bottom: 0;
+}
+.price .item .feat del {
+    opacity: .8;
+}
+.bethany-btn2:hover{
+    background-color: #a2783a;
+}
+/* FAQ */
+.faqs-accordion .accordion .item {
+    margin-bottom: 20px;
+}
+.faqs-accordion .accordion .title {
+    padding: 18px 60px 18px 20px;
+    background: #fff;
+    cursor: pointer;
+    position: relative;
+    border: 1px solid #f7f4f1;
+}
+.faqs-accordion .accordion .title:after {
+    content: '\e61a';
+    font-family: 'themify';
+    font-weight: normal;
+    font-size: 13px;
+    position: absolute;
+    top: 18px;
+    right: 20px;
+}
+.faqs-accordion .accordion .title h6 {
+    font-size: 18px;
+    margin-bottom: 0;
+    letter-spacing: 0;
+    color: #000;
+    text-transform: none;
+    font-family: Old Standard TT', serif;
+}
+.faqs-accordion .accordion .accordion-info {
+    display: none;
+    padding: 0px 15px;
+    margin-top: 30px;
+    border-left: 1px solid #f7f4f1;
+}
+.faqs-accordion .accordion .active {
+    display: block;
+}
+.faqs-accordion .accordion .active .title {
+    color: #000;
+    background: #f5f0ec;
+}
+.faqs-accordion .accordion .active .title:after {
+    content: '\e622';
+}
+.faqs-accordion .accordion .active .title h6 {
+    color: #000;
+}
+.faqs-accordion .accordion .accordion-info ul {
+    list-style-type: disc;
 }

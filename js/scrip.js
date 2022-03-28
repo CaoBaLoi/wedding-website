@@ -4,7 +4,7 @@ $(document).ready(function(){
         dots: false,
         autoplay: true,
         speed: 3000,
-        arrows: true,
+        arrows: false,
         slidesToShow: 3,
         slidesToScroll: 3,
         responsive: [
@@ -43,8 +43,8 @@ $(document).ready(function(){
         slidesToShow: 2,
         slidesToScroll: 2,
         infinite: true,
-        dots: true,
         arrows: false,
+        dots: false,
         autoplay: false,
         responsive: [
             {
@@ -62,3 +62,22 @@ $(document).ready(function(){
         ]
     });
 })
+$('.price .owl-carousel').owlCarousel({
+    loop: true
+    , margin: 30
+    , dots: true
+    , mouseDrag: true
+    , autoplay: false
+    , responsiveClass: true
+    , responsive: {
+        0: {
+            items: 1
+        }
+        , 600: {
+            items: 2
+        }
+        , 1000: {
+            items: 3
+        }
+    }
+});
