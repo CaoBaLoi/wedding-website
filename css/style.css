@@ -216,6 +216,7 @@
     text-align: center;
     transform: rotate(-30deg);
 }
+
 /* wedding-date */
 .bg-1{
     background-color: rgb(255, 248, 244);
@@ -584,27 +585,40 @@ width: 100px;
     transition: all .5s;
 }
 
-/* welcom */
-.welcom {
+/* Banner - Header */
+.banner-header {
 position: relative;
   padding-bottom: 0;
   z-index: 3;
   padding: 120px 0 15px 0;
 }
-.welcom .background {
+
+.banner-header .background {
   position: absolute;
   top: 0;
   left: 0;
   bottom: 120px;
   width: 100%;
   z-index: -1;
+  filter:brightness(90%);
 }
-.welcom .background img{
+.banner-header .background .img{
+    width: 100%;
+}
+.banner-header .row h1{
+    margin: 120px 0 120px 0;
+    color: #FFFFFF;
+    font-size: 45px;
+    text-align: center;
+    line-height: 67.5px;                                                                            
+}
+.banner-header .background img{
     width: 100%
 }
-.welcom .homepage-about {
+.banner-header .homepage-about {
     background-color: #fff;
 }
+<<<<<<< HEAD
 /* banner */
 .banner-header {
     height: 50vh;
@@ -811,3 +825,48 @@ position: relative;
 .faqs-accordion .accordion .accordion-info ul {
     list-style-type: disc;
 }
+=======
+
+/*  Creative team */
+.Creative {
+    background-color: #fff;
+    padding: 120px 0 120px 0;
+}
+
+.Creative .container{
+    width: 1140px;
+    height: 550px;
+}
+.Creative .container h2{
+    font-family: 'Old Standard TT', serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 35px;
+    margin: 0 0 5px 0;
+    border-bottom: 1.5px solid #a2783a ;
+    height: 52px;
+}
+
+.Creative .row .col{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.row .col img{
+    height: 350px;
+    width: 525px;
+    margin: 5px ;
+}
+
+.row .col h3{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 22px;
+}
+.row .col h4{
+    color: #3b4040;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+>>>>>>> 06d2d00e8b080dc65f9aebd0ec1ec3833eb57057
