@@ -587,20 +587,26 @@ width: 100px;
 
 /* Banner - Header */
 .banner-header {
-position: relative;
-  padding-bottom: 0;
-  z-index: 3;
-  padding: 120px 0 15px 0;
+    position: relative;
+    padding-bottom: 0;
+    z-index: 3;
+    padding: 120px 0 15px 0;
+    height: 50vh;
+    background-position: center;
+    margin-top: 105px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;   
 }
 
 .banner-header .background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 120px;
-  width: 100%;
-  z-index: -1;
-  filter:brightness(90%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 120px;
+    width: 100%;
+    z-index: -1;
+    filter:brightness(90%);
 }
 .banner-header .background .img{
     width: 100%;
@@ -618,13 +624,6 @@ position: relative;
 .banner-header .homepage-about {
     background-color: #fff;
 }
-<<<<<<< HEAD
-/* banner */
-.banner-header {
-    height: 50vh;
-    background-position: center;
-    margin-top: 105px;
-}
 .banner-header h1 {
     font-size: 45px;
     font-family: 'Signatie';
@@ -633,17 +632,22 @@ position: relative;
     position: relative;
     margin-bottom: 0;
 }
-/* services */
 .banner-services{
-    position: relative;
-    padding-bottom: 0;
-    z-index: 3;
-    padding: 120px 0 15px 0;
-    background-image: url(/images/banner/1.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;   
+    background-image: url(../images/banner/1.jpg);  
 }
+.banner-about{
+    background-image: url(../images/banner/3.jpg);  
+}
+.banner-blog{
+    background-image: url(../images/banner/4.jpg);  
+}
+.banner-contact{
+    background-image: url(../images/banner/3.jpg);  
+}
+.banner-portfolio{
+    background-image: url(../images/banner/2.jpg);  
+}
+/* services */
 .services-item {
     margin-left: 5px;
     margin-bottom: 40px;
@@ -825,8 +829,6 @@ position: relative;
 .faqs-accordion .accordion .accordion-info ul {
     list-style-type: disc;
 }
-=======
-
 /*  Creative team */
 .Creative {
     background-color: #fff;
@@ -869,4 +871,3 @@ position: relative;
     text-align: center;
     font-family: 'Nunito Sans', sans-serif;
 }
->>>>>>> 06d2d00e8b080dc65f9aebd0ec1ec3833eb57057
