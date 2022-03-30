@@ -618,7 +618,6 @@ position: relative;
 .banner-header .homepage-about {
     background-color: #fff;
 }
-<<<<<<< HEAD
 /* banner */
 .banner-header {
     height: 50vh;
@@ -801,7 +800,7 @@ position: relative;
     letter-spacing: 0;
     color: #000;
     text-transform: none;
-    font-family: Old Standard TT', serif;
+    font-family: 'Old Standard TT', serif;
 }
 .faqs-accordion .accordion .accordion-info {
     display: none;
@@ -825,7 +824,6 @@ position: relative;
 .faqs-accordion .accordion .accordion-info ul {
     list-style-type: disc;
 }
-=======
 
 /*  Creative team */
 .Creative {
@@ -869,4 +867,4 @@ position: relative;
     text-align: center;
     font-family: 'Nunito Sans', sans-serif;
 }
->>>>>>> 06d2d00e8b080dc65f9aebd0ec1ec3833eb57057
+
