@@ -603,9 +603,18 @@ width: 100px;
     margin-top: 105px;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: fixed;   
 }
 
+.banner-header .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 120px;
+    width: 100%;
+    z-index: -1;
+    filter:brightness(90%);
+}
 .banner-header .background {
     position: absolute;
     top: 0;
@@ -823,6 +832,7 @@ width: 100px;
 .faqs-accordion .accordion .accordion-info ul {
     list-style-type: disc;
 }
+
 /*  Creative team */
 .Creative {
     background-color: #fff;
