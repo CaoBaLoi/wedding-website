@@ -611,33 +611,6 @@ width: 100px;
     z-index: -1;
     filter:brightness(90%);
 }
-.banner-header .background .img{
-    width: 100%;
-}
-.banner-header .row h1{
-    margin: 120px 0 120px 0;
-    color: #FFFFFF;
-    font-size: 45px;
-    text-align: center;
-    line-height: 67.5px;                                                                            
-}
-.banner-header .background img{
-    width: 100%
-}
-.banner-header .homepage-about {
-    background-color: #fff;
-}
-.banner-header h1 {
-    font-size: 45px;
-    font-family: 'Signatie';
-    font-weight: normal;
-    color: #fff;
-    position: relative;
-    margin-bottom: 0;
-}
-.banner-services{
-    background-image: url(../images/banner/1.jpg);  
-}
 .banner-header .background {
     position: absolute;
     top: 0;
