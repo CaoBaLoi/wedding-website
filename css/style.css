@@ -1,6 +1,4 @@
-*{
-    font-family: 'Signatie';
-}
+
 /* Navigation style */
 .bethany-header-navbar {
     padding: 0;
@@ -90,7 +88,7 @@
 .bethany-slider .bethany-slider-item {
     position: relative;
     outline: none;
-    height: 500px;
+    height: 550px;
 }
 .bethany-homepage-slider .container{
     width: 60%;
@@ -103,17 +101,12 @@
 .bethany-homepage-slider .bethany-slider-item {
     margin-left: 5px;
 }
-.bethany-slider-item:focus {
-    outline: none;
-}
 .bethany-slider-caption {
     position: absolute;
     left: 50%;
     top: 50%;
     text-align: center;
-    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    -webkit-transition: opacity .2s ease-out;
     transition: opacity .2s ease-out;
     background-color: rgba(255, 255, 255,0.75);
     width: 90%;
@@ -160,15 +153,13 @@
 /* About */
 .homepage-about{
     width: 100%;
-    height: 780.5px;
     padding: 120px 0;
     font-family: 'signatie';
 }
-.homepage-about.container {
-    width: 100%;
+.homepage-about .container {
+    width: 65%;
     height: 100%;
-    margin: 0 111px;
-    padding: 0 30px ;
+    padding: 0 30px !important;
 }
 .about-img img:hover {
     transform: scale(0.95);
@@ -224,6 +215,9 @@
 .wedding-date{
     padding: 120px 0;
     position: relative;
+}
+.wedding-date .container{
+    width: 65%;
 }
 .wedding-date-table{
     width: 100%;
@@ -290,7 +284,7 @@ width: 100px;
   padding-bottom: 0;
   z-index: 3;
   padding: 120px 0 15px 0;
-  background-image: url(/images/banner/2.jpg);
+  background-image: url(../images/banner/2.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -380,9 +374,18 @@ width: 100px;
 .blog{
     padding: 120px 0;
 }
+.blog .container{
+    width: 60%;
+}
 .blog .img {
     position: relative;
     overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.blog .img img{
+    width: 100%;
+    height: 100%;
 }
 .blog .img:hover img {
     filter: none;
@@ -587,20 +590,26 @@ width: 100px;
 
 /* Banner - Header */
 .banner-header {
-position: relative;
-  padding-bottom: 0;
-  z-index: 3;
-  padding: 120px 0 15px 0;
+    position: relative;
+    padding-bottom: 0;
+    z-index: 3;
+    padding: 120px 0 15px 0;
+    height: 50vh;
+    background-position: center;
+    margin-top: 105px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;   
 }
 
 .banner-header .background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 120px;
-  width: 100%;
-  z-index: -1;
-  filter:brightness(90%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 120px;
+    width: 100%;
+    z-index: -1;
+    filter:brightness(90%);
 }
 .banner-header .background .img{
     width: 100%;
@@ -618,12 +627,6 @@ position: relative;
 .banner-header .homepage-about {
     background-color: #fff;
 }
-/* banner */
-.banner-header {
-    height: 50vh;
-    background-position: center;
-    margin-top: 105px;
-}
 .banner-header h1 {
     font-size: 45px;
     font-family: 'Signatie';
@@ -632,17 +635,22 @@ position: relative;
     position: relative;
     margin-bottom: 0;
 }
-/* services */
 .banner-services{
-    position: relative;
-    padding-bottom: 0;
-    z-index: 3;
-    padding: 120px 0 15px 0;
-    background-image: url(/images/banner/1.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;   
+    background-image: url(../images/banner/1.jpg);  
 }
+.banner-about{
+    background-image: url(../images/banner/3.jpg);  
+}
+.banner-blog{
+    background-image: url(../images/banner/4.jpg);  
+}
+.banner-contact{
+    background-image: url(../images/banner/3.jpg);  
+}
+.banner-portfolio{
+    background-image: url(../images/banner/2.jpg);  
+}
+/* services */
 .services-item {
     margin-left: 5px;
     margin-bottom: 40px;
