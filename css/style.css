@@ -290,7 +290,7 @@ width: 100px;
   padding-bottom: 0;
   z-index: 3;
   padding: 120px 0 15px 0;
-  background-image: url(/images/banner/2.jpg);
+  background-image: url(../images/banner/2.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -585,52 +585,49 @@ width: 100px;
     transition: all .5s;
 }
 
-/*Banner-header*/
-.banner-header {
-    height: 50vh;
-    background-position: center;
-    margin-top: 105px;
-}
-.banner-header h1 {
-    font-size: 45px;
-    font-family: 'Signatie';
-    font-weight: normal;
-    color: #fff;
-    position: relative;
-    margin-bottom: 0;
-}
-/* Banner-about */
-.banner-about{
-    position: relative;
-    padding-bottom: 0;
-    z-index: 3;
-    padding: 120px 0 15px 0;
-    background-image: url(/images/banner/3.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;  
-    filter:brightness(90%); 
-}
-/*Banner-blog*/
-.banner-blog{
-    position: relative;
-    padding-bottom: 0;
-    z-index: 3;
-    padding: 120px 0 15px 0;
-    background-image: url(/images/banner/4.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;  
-    filter:brightness(90%); 
-}
 
-<<<<<<< HEAD
 /* banner */
 .banner-header {
     height: 50vh;
     background-position: center;
     margin-top: 105px;
+    position: relative;
+    padding-bottom: 0;
+    z-index: 3;
+    padding: 120px 0 15px 0;
+    height: 50vh;
+    background-position: center;
+    margin-top: 105px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;   
 }
+
+.banner-header .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 120px;
+    width: 100%;
+    z-index: -1;
+    filter:brightness(90%);
+}
+/* .banner-header .background .img{
+    width: 100%;
+}
+.banner-header .row h1{
+    margin: 120px 0 120px 0;
+    color: #FFFFFF;
+    font-size: 45px;
+    text-align: center;
+    line-height: 67.5px;                                                                            
+}
+.banner-header .background img{
+    width: 100%
+}
+.banner-header .homepage-about {
+    background-color: #fff;
+} */
 .banner-header h1 {
     font-size: 45px;
     font-family: 'Signatie';
@@ -639,17 +636,22 @@ width: 100px;
     position: relative;
     margin-bottom: 0;
 }
-/* services */
 .banner-services{
-    position: relative;
-    padding-bottom: 0;
-    z-index: 3;
-    padding: 120px 0 15px 0;
-    background-image: url(/images/banner/1.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;   
+    background-image: url(../images/banner/1.jpg);  
 }
+.banner-about{
+    background-image: url(../images/banner/3.jpg);  
+}
+.banner-blog{
+    background-image: url(../images/banner/4.jpg);  
+}
+.banner-contact{
+    background-image: url(../images/banner/3.jpg);  
+}
+.banner-portfolio{
+    background-image: url(../images/banner/2.jpg);  
+}
+/* services */
 .services-item {
     margin-left: 5px;
     margin-bottom: 40px;
@@ -807,7 +809,7 @@ width: 100px;
     letter-spacing: 0;
     color: #000;
     text-transform: none;
-    font-family: Old Standard TT', serif;
+    font-family: 'Old Standard TT', serif;
 }
 .faqs-accordion .accordion .accordion-info {
     display: none;
@@ -831,8 +833,6 @@ width: 100px;
 .faqs-accordion .accordion .accordion-info ul {
     list-style-type: disc;
 }
-=======
-
 /*  Creative team */
 .Creative {
     background-color: #fff;
@@ -875,4 +875,3 @@ width: 100px;
     text-align: center;
     font-family: 'Nunito Sans', sans-serif;
 }
->>>>>>> 06d2d00e8b080dc65f9aebd0ec1ec3833eb57057
