@@ -599,6 +599,7 @@ width: 100px;
     margin-top: 105px;
     background-size: cover;
     background-position: center;
+<<<<<<< HEAD
     background-attachment: fixed;   
 }
 
@@ -638,6 +639,34 @@ width: 100px;
 .banner-services{
     background-image: url(../images/banner/1.jpg);  
 }
+=======
+    background-attachment: fixed;
+}
+
+.banner-header .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 120px;
+    width: 100%;
+    z-index: -1;
+    filter:brightness(90%);
+}
+.banner-header .row h1{
+    margin: 120px 0;
+    color: #FFFFFF;
+    font-size: 45px;
+    text-align: center;
+    line-height: 67.5px;
+    font-size: 45px;   
+    font-family: 'Signatie';
+    font-weight: normal;     
+    position: relative;                                                                    
+}
+.banner-services{
+    background-image: url(../images/banner/1.jpg);  
+}
+>>>>>>> 06ed292277c9e135de85c08dd213a3a87a005431
 .banner-about{
     background-image: url(../images/banner/3.jpg);  
 }
@@ -832,7 +861,10 @@ width: 100px;
 .faqs-accordion .accordion .accordion-info ul {
     list-style-type: disc;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 06ed292277c9e135de85c08dd213a3a87a005431
 /*  Creative team */
 .Creative {
     background-color: #fff;
@@ -875,4 +907,7 @@ width: 100px;
     text-align: center;
     font-family: 'Nunito Sans', sans-serif;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 06ed292277c9e135de85c08dd213a3a87a005431
