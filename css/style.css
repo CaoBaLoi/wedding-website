@@ -1,6 +1,4 @@
-*{
-    font-family: 'Signatie';
-}
+
 /* Navigation style */
 .bethany-header-navbar {
     padding: 0;
@@ -90,7 +88,7 @@
 .bethany-slider .bethany-slider-item {
     position: relative;
     outline: none;
-    height: 500px;
+    height: 550px;
 }
 .bethany-homepage-slider .container{
     width: 60%;
@@ -103,17 +101,12 @@
 .bethany-homepage-slider .bethany-slider-item {
     margin-left: 5px;
 }
-.bethany-slider-item:focus {
-    outline: none;
-}
 .bethany-slider-caption {
     position: absolute;
     left: 50%;
     top: 50%;
     text-align: center;
-    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    -webkit-transition: opacity .2s ease-out;
     transition: opacity .2s ease-out;
     background-color: rgba(255, 255, 255,0.75);
     width: 90%;
@@ -160,15 +153,13 @@
 /* About */
 .homepage-about{
     width: 100%;
-    height: 780.5px;
     padding: 120px 0;
     font-family: 'signatie';
 }
-.homepage-about.container {
-    width: 100%;
+.homepage-about .container {
+    width: 65%;
     height: 100%;
-    margin: 0 111px;
-    padding: 0 30px ;
+    padding: 0 30px !important;
 }
 .about-img img:hover {
     transform: scale(0.95);
@@ -224,6 +215,9 @@
 .wedding-date{
     padding: 120px 0;
     position: relative;
+}
+.wedding-date .container{
+    width: 65%;
 }
 .wedding-date-table{
     width: 100%;
@@ -380,9 +374,18 @@ width: 100px;
 .blog{
     padding: 120px 0;
 }
+.blog .container{
+    width: 60%;
+}
 .blog .img {
     position: relative;
     overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.blog .img img{
+    width: 100%;
+    height: 100%;
 }
 .blog .img:hover img {
     filter: none;
