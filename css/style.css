@@ -599,7 +599,7 @@ width: 100px;
     margin-top: 105px;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;   
+    background-attachment: fixed;
 }
 
 .banner-header .background {
@@ -611,29 +611,16 @@ width: 100px;
     z-index: -1;
     filter:brightness(90%);
 }
-.banner-header .background .img{
-    width: 100%;
-}
 .banner-header .row h1{
-    margin: 120px 0 120px 0;
+    margin: 120px 0;
     color: #FFFFFF;
     font-size: 45px;
     text-align: center;
-    line-height: 67.5px;                                                                            
-}
-.banner-header .background img{
-    width: 100%
-}
-.banner-header .homepage-about {
-    background-color: #fff;
-}
-.banner-header h1 {
-    font-size: 45px;
+    line-height: 67.5px;
+    font-size: 45px;   
     font-family: 'Signatie';
-    font-weight: normal;
-    color: #fff;
-    position: relative;
-    margin-bottom: 0;
+    font-weight: normal;     
+    position: relative;                                                                    
 }
 .banner-services{
     background-image: url(../images/banner/1.jpg);  
@@ -808,7 +795,7 @@ width: 100px;
     letter-spacing: 0;
     color: #000;
     text-transform: none;
-    font-family: Old Standard TT', serif;
+    font-family: 'Old Standard TT', serif;
 }
 .faqs-accordion .accordion .accordion-info {
     display: none;
