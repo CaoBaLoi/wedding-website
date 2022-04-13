@@ -599,7 +599,7 @@ width: 100px;
     margin-top: 105px;
     background-size: cover;
     background-position: center;
-<<<<<<< HEAD
+
     background-attachment: fixed;   
 }
 
@@ -612,21 +612,12 @@ width: 100px;
     z-index: -1;
     filter:brightness(90%);
 }
-.banner-header .background .img{
-    width: 100%;
-}
 .banner-header .row h1{
     margin: 120px 0 120px 0;
     color: #FFFFFF;
     font-size: 45px;
     text-align: center;
     line-height: 67.5px;                                                                            
-}
-.banner-header .background img{
-    width: 100%
-}
-.banner-header .homepage-about {
-    background-color: #fff;
 }
 .banner-header h1 {
     font-size: 45px;
@@ -639,10 +630,18 @@ width: 100px;
 .banner-services{
     background-image: url(../images/banner/1.jpg);  
 }
-=======
-    background-attachment: fixed;
+.banner-about{
+    background-image: url(../images/banner/3.jpg);  
 }
-
+.banner-blog{
+    background-image: url(../images/banner/4.jpg);  
+}
+.banner-contact{
+    background-image: url(../images/banner/3.jpg);  
+}
+.banner-portfolio{
+    background-image: url(../images/banner/2.jpg);  
+}
 .banner-header .background {
     position: absolute;
     top: 0;
@@ -666,7 +665,6 @@ width: 100px;
 .banner-services{
     background-image: url(../images/banner/1.jpg);  
 }
->>>>>>> 06ed292277c9e135de85c08dd213a3a87a005431
 .banner-about{
     background-image: url(../images/banner/3.jpg);  
 }
@@ -861,10 +859,6 @@ width: 100px;
 .faqs-accordion .accordion .accordion-info ul {
     list-style-type: disc;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 06ed292277c9e135de85c08dd213a3a87a005431
 /*  Creative team */
 .Creative {
     background-color: #fff;
@@ -895,7 +889,6 @@ width: 100px;
     width: 525px;
     margin: 5px ;
 }
-
 .row .col h3{
     font-size: 20px;
     text-align: center;
@@ -907,7 +900,76 @@ width: 100px;
     text-align: center;
     font-family: 'Nunito Sans', sans-serif;
 }
-<<<<<<< HEAD
+/* Photo Gallery */
+.ti-heart {
+    height: auto;
+    width: auto;
+    font-family: themify;
+    font-size: 15px;
+    line-height: 15px;
+    display: inline;
+    cursor: pointer;
+}
+.gallery-dentail {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    height: 66.25px;
+    width: 340px;
+    padding: 20px;
+    top: 255px;
+    bottom: 188.75px;
+    color: #FFFFFF;
+    position: absolute;
+}
+.text-center h2{
+    font-size: 35px;
+    line-height: 52.5px;
+    text-align: center;
+    font-family: 'Old Standard TT', serif;
+    margin: 0 0 5px 0;
+    height: 52.5px;
+    width: 1080px;
+    position: relative;
+}
+.gallery-img{
+    height: 510px;
+    width: 340px;
+    font-family:'Nunito Sans', sans-serif;
+    margin: 10px 0 10px 0;
+}
+/* Video Gallery */
+.bg-1  .container{
+    padding: 120px 0 120px 0;
+    width: 1100px;
+    text-align: center;
+}
+.video-gallery-pologon{
+    font-family:'Nunito Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: left;
+    height: 31px;
+    width: 31px;
+    border: 1px solid #819777;
+    padding: 7px 6px 7px 8px;
+    top: -46px;
+}
+.ti-control-play{
+    font-family: themify;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: left;
+    text-decoration: none solid rgb(255,255,255);
+    height: auto;
+    width: auto;
+    position color: #FFFFFF;
+}
+.bg-1 .container .row .vid-icon img{
+    font-family:'Nunito Sans', sans-serif;
+    font-size: 15px;
+    height: 80%;
+    width: 100%;
+    margin: 0 0 20px 0;
+}
 
-=======
->>>>>>> 06ed292277c9e135de85c08dd213a3a87a005431
+
