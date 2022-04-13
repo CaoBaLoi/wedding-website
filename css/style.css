@@ -875,3 +875,58 @@ width: 100px;
     text-align: center;
     font-family: 'Nunito Sans', sans-serif;
 }
+/* Contact */
+.Contact{
+    padding: 120px 0 120px 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.Contact .container{
+    width: 1100px;
+}
+.Contact .container p{
+    color: #505050;
+    font-weight: lighter;
+    font-size: 15px;
+    line-height: 26px;
+}
+.Contact .container p b{
+    color: #a2783a;
+    font-weight: lighter;
+}
+.Contact h2{
+    font-size: 35px;
+    font-weight: lighter;
+    color: #000000;
+    padding: 0 10px 0 10px;
+    line-height: 50px;
+}
+.contact-2{
+    background-color: #a2783a;
+    width: 170px;
+    height: 45px;
+    color: #FFFFFF;
+    margin-left: 10px;
+    font-size: 12px;  
+    padding: 12px 27px 12px 27px; 
+}
+.contact-2:hover{
+    background-color: #000000;
+}
+.Contact .row input{
+    height: 43px;
+    width: 100%;
+    margin: 0 0 15px 0;
+    padding: 0 15px 0 15px;
+}
+.Contact .row textarea{
+    width: 100%;
+    padding: 0 15px 0 15px;
+    margin: 0 0 15px 0;
+}
+.Contact h5{
+    margin: 0 0 30px 0;
+    line-height: 30px;
+    font-family: 'Old Standard TT', serif;
+    padding: 0 15px 0 15px;
+}
+
