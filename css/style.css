@@ -588,8 +588,12 @@ width: 100px;
     transition: all .5s;
 }
 
-/* Banner - Header */
+
+/* banner */
 .banner-header {
+    height: 50vh;
+    background-position: center;
+    margin-top: 105px;
     position: relative;
     padding-bottom: 0;
     z-index: 3;
@@ -599,7 +603,10 @@ width: 100px;
     margin-top: 105px;
     background-size: cover;
     background-position: center;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3e4877233061edde3090b8a7c06cc21ad757bcd3
     background-attachment: fixed;   
 }
 
@@ -612,6 +619,7 @@ width: 100px;
     z-index: -1;
     filter:brightness(90%);
 }
+<<<<<<< HEAD
 .banner-header .row h1{
     margin: 120px 0 120px 0;
     color: #FFFFFF;
@@ -642,6 +650,8 @@ width: 100px;
 .banner-portfolio{
     background-image: url(../images/banner/2.jpg);  
 }
+=======
+>>>>>>> 3e4877233061edde3090b8a7c06cc21ad757bcd3
 .banner-header .background {
     position: absolute;
     top: 0;
@@ -859,6 +869,10 @@ width: 100px;
 .faqs-accordion .accordion .accordion-info ul {
     list-style-type: disc;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3e4877233061edde3090b8a7c06cc21ad757bcd3
 /*  Creative team */
 .Creative {
     background-color: #fff;
@@ -900,6 +914,7 @@ width: 100px;
     text-align: center;
     font-family: 'Nunito Sans', sans-serif;
 }
+<<<<<<< HEAD
 /* Photo Gallery */
 .ti-heart {
     height: auto;
@@ -973,3 +988,175 @@ width: 100px;
 }
 
 
+=======
+<<<<<<< HEAD
+/* Contact */
+.Contact{
+    padding: 120px 0 120px 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.Contact .container{
+    width: 1100px;
+}
+.Contact .container p{
+    color: #505050;
+    font-weight: lighter;
+    font-size: 15px;
+    line-height: 26px;
+}
+.Contact .container p b{
+    color: #a2783a;
+    font-weight: lighter;
+}
+.Contact h2{
+    font-size: 35px;
+    font-weight: lighter;
+    color: #000000;
+    padding: 0 10px 0 10px;
+    line-height: 50px;
+}
+.contact-2{
+    background-color: #a2783a;
+    width: 170px;
+    height: 45px;
+    color: #FFFFFF;
+    margin-left: 10px;
+    font-size: 12px;  
+    padding: 12px 27px 12px 27px; 
+}
+.contact-2:hover{
+    background-color: #000000;
+}
+.Contact .row input{
+    height: 43px;
+    width: 100%;
+    margin: 0 0 15px 0;
+    padding: 0 15px 0 15px;
+}
+.Contact .row textarea{
+    width: 100%;
+    padding: 0 15px 0 15px;
+    margin: 0 0 15px 0;
+}
+.Contact h5{
+    margin: 0 0 30px 0;
+    line-height: 30px;
+    font-family: 'Old Standard TT', serif;
+    padding: 0 15px 0 15px;
+}
+
+=======
+ /* Admin header*/
+body{
+    background-color: rgba(236, 248, 129, 0.295);
+}
+ .nav{
+    height: 80px;
+    text-align: right;
+    padding: 15px 0 18px 0;
+    width: 100%;
+    background-color: #505050;
+ }
+ .nav-admin-item{
+    height: 100%;
+ }
+ .nav-link{
+    margin-right: 20px;
+ }
+.nav-link .btn{
+    width: 100%;
+    height: 90%;
+    font-weight: 600;
+    font-size: larger;
+    border: solid rgb(241, 227, 19) 1px;
+    color: #FFFFFF;
+}
+.nav-link .btn:hover{
+    color: #FFFFFF;
+    background-color: rgb(141, 141, 238);
+}
+.menu{
+    padding-top: 100px;
+    width: 100%;
+}
+.navbar-light{
+    background-color: rgba(236, 248, 129,0);
+}
+.span-menu{
+    padding: 0px;
+}
+.search-menu{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+.menu-item{
+    text-align: right;
+    padding: 100px 0 0 0;
+}
+.menu-item-inner{
+    background-color: #505050;
+    margin-left: 100px;
+    height: 80px;
+    padding: 0px;
+    border-radius: 4px;
+}
+.menu-ul{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}
+.menu-ul li{
+    list-style-type: none;
+    height: 50%;
+    width: 100%;
+}
+.menu-ul li a{
+    text-decoration: none;
+    color: #fff;
+    height: 50%;
+}
+.menu-ul li:hover{
+    background-color: rgb(42, 42, 190);
+    border-radius: 4px;
+    transform: scale(1.05);
+}
+.dashbroad-data{
+    width: 90%;
+    border-left: #000 1.5px solid;
+    border-top: #000 1.5px solid;
+}
+.dashbroad-data .row{
+    line-height: 24px;
+}
+.box{
+    border-right: #000 1.5px solid;
+}
+.box .row{
+    border-bottom: #000 1.5px solid;
+
+}
+.row-active{
+    text-align: center;
+}
+.check-box .row{
+   justify-content: center;
+}
+.number{
+    text-align: center;
+}
+.status .row{
+    justify-content: center;
+}
+.information .row{
+    justify-content: center;
+}
+.username .row{
+    padding-left: 15px;
+}
+.password .row{
+    padding-left: 15px;
+}
+>>>>>>> 7d820fcb6c3cdb6addee350558a7079123c0562c
+>>>>>>> 3e4877233061edde3090b8a7c06cc21ad757bcd3
