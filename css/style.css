@@ -482,6 +482,7 @@ width: 100px;
     font-size: 15px;
     margin-right: 10px;
     color: #fff;
+    text-decoration: none;
 }
 .footer .abot .social-icon a:hover {
     color: #fff;
@@ -492,6 +493,7 @@ width: 100px;
 }
 .footer .usful-links ul li {
     margin-bottom: 5px;
+    list-style-type: none;
 }
 .footer .usful-links ul li:hover {
     color: #a2783a;
@@ -503,6 +505,7 @@ width: 100px;
 }
 .footer .usful-links ul li a {
     color: #fff;
+    text-decoration: none;
 }
 .footer .fothead h6 {
     color: #fff;
@@ -561,6 +564,9 @@ width: 100px;
 .footer .sub-footer .text-right-left {
     text-align: right!important;
 }
+.footer .sub-footer .text-right-left a{
+    text-decoration: none;
+}
 /* slide 2 */
 .slide-2 {
     background: #FBF9F9;
@@ -588,8 +594,12 @@ width: 100px;
     transition: all .5s;
 }
 
-/* Banner - Header */
+
+/* banner */
 .banner-header {
+    height: 50vh;
+    background-position: center;
+    margin-top: 105px;
     position: relative;
     padding-bottom: 0;
     z-index: 3;
@@ -602,15 +612,6 @@ width: 100px;
     background-attachment: fixed;   
 }
 
-.banner-header .background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 120px;
-    width: 100%;
-    z-index: -1;
-    filter:brightness(90%);
-}
 .banner-header .background {
     position: absolute;
     top: 0;
@@ -828,7 +829,6 @@ width: 100px;
 .faqs-accordion .accordion .accordion-info ul {
     list-style-type: disc;
 }
-
 /*  Creative team */
 .Creative {
     background-color: #fff;
@@ -859,7 +859,6 @@ width: 100px;
     width: 525px;
     margin: 5px ;
 }
-
 .row .col h3{
     font-size: 20px;
     text-align: center;
@@ -870,4 +869,131 @@ width: 100px;
     font-size: 15px;
     text-align: center;
     font-family: 'Nunito Sans', sans-serif;
+}
+/* Photo Gallery */
+.Photo-gallery{
+    padding: 120px 0 0 0;
+}
+.ti-heart {
+    height: auto;
+    width: auto;
+    font-family: themify;
+    font-size: 15px;
+    line-height: 15px;
+    display: inline;
+    cursor: pointer;
+}
+.gallery-dentail {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    height: 66.25px;
+    width: 340px;
+    padding: 20px;
+    top: 255px;
+    bottom: 188.75px;
+    color: #FFFFFF;
+    position: absolute;
+}
+.text-center h2{
+    font-size: 35px;
+    line-height: 52.5px;
+    text-align: center;
+    font-family: 'Old Standard TT', serif;
+    margin: 0 0 5px 0;
+    height: 52.5px;
+    width: 1080px;
+    position: relative;
+}
+.gallery-img{
+    height: 510px;
+    width: 340px;
+    font-family:'Nunito Sans', sans-serif;
+    margin: 10px 0 10px 0;
+}
+/* Video Gallery */
+.bg-1  .container{
+    padding: 120px 0 120px 0;
+    width: 1100px;
+    text-align: center;
+}
+.video-gallery-pologon{
+    font-family:'Nunito Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: left;
+    height: 31px;
+    width: 31px;
+    border: 1px solid #819777;
+    padding: 7px 6px 7px 8px;
+    top: -46px;
+}
+.ti-control-play{
+    font-family: themify;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: left;
+    text-decoration: none solid rgb(255,255,255);
+    height: auto;
+    width: auto;
+}
+.bg-1 .container .row .vid-icon img{
+    font-family:'Nunito Sans', sans-serif;
+    font-size: 15px;
+    height: 80%;
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+/* Contact */
+.Contact{
+    padding: 120px 0 120px 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.Contact .container{
+    width: 1100px;
+}
+.Contact .container p{
+    color: #505050;
+    font-weight: lighter;
+    font-size: 15px;
+    line-height: 26px;
+}
+.Contact .container p b{
+    color: #a2783a;
+    font-weight: lighter;
+}
+.Contact h2{
+    font-size: 35px;
+    font-weight: lighter;
+    color: #000000;
+    padding: 0 10px 0 10px;
+    line-height: 50px;
+}
+.contact-2{
+    background-color: #a2783a;
+    width: 170px;
+    height: 45px;
+    color: #FFFFFF;
+    margin-left: 10px;
+    font-size: 12px;  
+    padding: 12px 27px 12px 27px; 
+}
+.contact-2:hover{
+    background-color: #000000;
+}
+.Contact .row input{
+    height: 43px;
+    width: 100%;
+    margin: 0 0 15px 0;
+    padding: 0 15px 0 15px;
+}
+.Contact .row textarea{
+    width: 100%;
+    padding: 0 15px 0 15px;
+    margin: 0 0 15px 0;
+}
+.Contact h5{
+    margin: 0 0 30px 0;
+    line-height: 30px;
+    font-family: 'Old Standard TT', serif;
+    padding: 0 15px 0 15px;
 }
