@@ -141,7 +141,6 @@
     font-family: 'Signatie';
     margin-bottom: 10px;
 }
-
 .bethany-slider-title a,
 .bethany-slider-subtitle a {
     color: #000;
@@ -207,7 +206,6 @@
     text-align: center;
     transform: rotate(-30deg);
 }
-
 /* wedding-date */
 .bg-1{
     background-color: rgb(255, 248, 244);
@@ -278,7 +276,6 @@ width: 100px;
     border-top: 1px solid #a2783a;
     margin: 0 0 20px 0;
 }
-
 /* client-love */
 .client-love {
   position: relative;
@@ -346,12 +343,10 @@ width: 100px;
 .client-love h6 {
     color: #fff;
 }
-
 .client-love .line-hr-center {
     width: 60px;
     border-top: 1px solid #fff;
 }
-
 .client-love .sec-head .tbg {
     color: #fff;
     opacity: 0.25;
@@ -563,7 +558,6 @@ width: 100px;
     font-weight: 400;
     line-height: 1.25em;
 }
-
 .footer .sub-footer .text-right-left {
     text-align: right!important;
 }
@@ -596,8 +590,6 @@ width: 100px;
     -webkit-transition: all .5s;
     transition: all .5s;
 }
-
-
 /* banner */
 .banner-header {
     height: 50vh;
@@ -614,7 +606,6 @@ width: 100px;
     background-position: center;
     background-attachment: fixed;   
 }
-
 .banner-header .background {
     position: absolute;
     top: 0;
@@ -624,6 +615,48 @@ width: 100px;
     z-index: -1;
     filter:brightness(90%);
 }
+<<<<<<< HEAD
+.banner-header .row h1{
+    margin: 120px 0 120px 0;
+    color: #FFFFFF;
+    font-size: 45px;
+    text-align: center;
+    line-height: 67.5px;                                                                            
+}
+.banner-header h1 {
+    font-size: 45px;
+    font-family: 'Signatie';
+    font-weight: normal;
+    color: #fff;
+    position: relative;
+    margin-bottom: 0;
+}
+.banner-services{
+    background-image: url(../images/banner/1.jpg);  
+}
+.banner-about{
+    background-image: url(../images/banner/3.jpg);  
+}
+.banner-blog{
+    background-image: url(../images/banner/4.jpg);  
+}
+.banner-contact{
+    background-image: url(../images/banner/3.jpg);  
+}
+.banner-portfolio{
+    background-image: url(../images/banner/2.jpg);  
+}
+.banner-header .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 120px;
+    width: 100%;
+    z-index: -1;
+    filter:brightness(90%);
+}
+=======
+>>>>>>> 0c746ed4c7f43e84f78f82b1febc0b2b5ac3a3b4
 .banner-header .row h1{
     margin: 120px 0;
     color: #FFFFFF;
@@ -836,7 +869,6 @@ width: 100px;
     background-color: #fff;
     padding: 120px 0 120px 0;
 }
-
 .Creative .container{
     width: 1140px;
     height: 550px;
@@ -850,7 +882,6 @@ width: 100px;
     border-bottom: 1.5px solid #a2783a ;
     height: 52px;
 }
-
 .Creative .row .col{
     text-align: center;
     margin-top: 20px;
@@ -1005,4 +1036,118 @@ width: 100px;
     line-height: 30px;
     font-family: 'Old Standard TT', serif;
     padding: 0 15px 0 15px;
+<<<<<<< HEAD
+}
+ /* Admin header*/
+body{
+    background-color: rgba(236, 248, 129, 0.295);
+}
+ .nav{
+    height: 80px;
+    text-align: right;
+    padding: 15px 0 18px 0;
+    width: 100%;
+    background-color: #505050;
+ }
+ .nav-admin-item{
+    height: 100%;
+ }
+ .nav-link{
+    margin-right: 20px;
+ }
+.nav-link .btn{
+    width: 100%;
+    height: 90%;
+    font-weight: 600;
+    font-size: larger;
+    border: solid rgb(241, 227, 19) 1px;
+    color: #FFFFFF;
+}
+.nav-link .btn:hover{
+    color: #FFFFFF;
+    background-color: rgb(141, 141, 238);
+}
+.menu{
+    padding-top: 100px;
+    width: 100%;
+}
+.navbar-light{
+    background-color: rgba(236, 248, 129,0);
+}
+.span-menu{
+    padding: 0px;
+}
+.search-menu{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+.menu-item{
+    text-align: right;
+    padding: 100px 0 0 0;
+}
+.menu-item-inner{
+    background-color: #505050;
+    margin-left: 100px;
+    height: 80px;
+    padding: 0px;
+    border-radius: 4px;
+}
+.menu-ul{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}
+.menu-ul li{
+    list-style-type: none;
+    height: 50%;
+    width: 100%;
+}
+.menu-ul li a{
+    text-decoration: none;
+    color: #fff;
+    height: 50%;
+}
+.menu-ul li:hover{
+    background-color: rgb(42, 42, 190);
+    border-radius: 4px;
+    transform: scale(1.05);
+}
+.dashbroad-data{
+    width: 90%;
+    border-left: #000 1.5px solid;
+    border-top: #000 1.5px solid;
+}
+.dashbroad-data .row{
+    line-height: 24px;
+}
+.box{
+    border-right: #000 1.5px solid;
+}
+.box .row{
+    border-bottom: #000 1.5px solid;
+}
+.row-active{
+    text-align: center;
+}
+.check-box .row{
+   justify-content: center;
+}
+.number{
+    text-align: center;
+}
+.status .row{
+    justify-content: center;
+}
+.information .row{
+    justify-content: center;
+}
+.username .row{
+    padding-left: 15px;
+}
+.password .row{
+    padding-left: 15px;
+=======
+>>>>>>> 0c746ed4c7f43e84f78f82b1febc0b2b5ac3a3b4
 }
