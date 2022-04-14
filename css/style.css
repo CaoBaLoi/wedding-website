@@ -211,11 +211,12 @@
     background-color: rgb(255, 248, 244);
 }
 .wedding-date{
-    padding: 120px 0;
+    padding: 80px 0;
     position: relative;
 }
 .wedding-date .container{
     width: 65%;
+    padding: 80px 0 !important;
 }
 .wedding-date-table{
     width: 100%;
@@ -286,6 +287,9 @@ width: 100px;
   background-position: center;
   background-attachment: fixed;
 }
+.client-love .container{
+    padding: 80px 0 !important;
+}
 .client-love .testim {
   position: relative;
 }
@@ -294,9 +298,8 @@ width: 100px;
 }
 .client-love .item {
   padding: 50px 30px;
-  -webkit-box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.07);
-          box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.07);
   border-radius: 5px;
+  box-shadow: 0 5px 10px rgb(100, 96, 96);
   background: #fff;
 }
 .client-love .item .img {
@@ -477,6 +480,7 @@ width: 100px;
     font-size: 15px;
     margin-right: 10px;
     color: #fff;
+    text-decoration: none;
 }
 .footer .abot .social-icon a:hover {
     color: #fff;
@@ -487,6 +491,7 @@ width: 100px;
 }
 .footer .usful-links ul li {
     margin-bottom: 5px;
+    list-style-type: none;
 }
 .footer .usful-links ul li:hover {
     color: #a2783a;
@@ -498,6 +503,7 @@ width: 100px;
 }
 .footer .usful-links ul li a {
     color: #fff;
+    text-decoration: none;
 }
 .footer .fothead h6 {
     color: #fff;
@@ -555,6 +561,9 @@ width: 100px;
 .footer .sub-footer .text-right-left {
     text-align: right!important;
 }
+.footer .sub-footer .text-right-left a{
+    text-decoration: none;
+}
 /* slide 2 */
 .slide-2 {
     background: #FBF9F9;
@@ -606,6 +615,7 @@ width: 100px;
     z-index: -1;
     filter:brightness(90%);
 }
+<<<<<<< HEAD
 .banner-header .row h1{
     margin: 120px 0 120px 0;
     color: #FFFFFF;
@@ -645,6 +655,8 @@ width: 100px;
     z-index: -1;
     filter:brightness(90%);
 }
+=======
+>>>>>>> 0c746ed4c7f43e84f78f82b1febc0b2b5ac3a3b4
 .banner-header .row h1{
     margin: 120px 0;
     color: #FFFFFF;
@@ -892,10 +904,20 @@ width: 100px;
     font-family: 'Nunito Sans', sans-serif;
 }
 /* Photo Gallery */
+.Photo-gallery .container{
+    padding: 0;
+    width: 60%;
+    padding: 0 30px;
+    margin-top: 120px;
+}
+.gallery-item{
+    position: relative;
+    margin-bottom: 10px;
+}
 .ti-heart {
     height: auto;
     width: auto;
-    font-family: themify;
+    font-family: 'themify';
     font-size: 15px;
     line-height: 15px;
     display: inline;
@@ -919,19 +941,19 @@ width: 100px;
     font-family: 'Old Standard TT', serif;
     margin: 0 0 5px 0;
     height: 52.5px;
-    width: 1080px;
+    width: 100%;
     position: relative;
 }
 .gallery-img{
-    height: 510px;
-    width: 340px;
+    height: 100%;
+    width: 100%;
     font-family:'Nunito Sans', sans-serif;
     margin: 10px 0 10px 0;
 }
 /* Video Gallery */
 .bg-1  .container{
     padding: 120px 0 120px 0;
-    width: 1100px;
+    width: 100%;
     text-align: center;
 }
 .video-gallery-pologon{
@@ -1014,6 +1036,7 @@ width: 100px;
     line-height: 30px;
     font-family: 'Old Standard TT', serif;
     padding: 0 15px 0 15px;
+<<<<<<< HEAD
 }
  /* Admin header*/
 body{
@@ -1125,4 +1148,6 @@ body{
 }
 .password .row{
     padding-left: 15px;
+=======
+>>>>>>> 0c746ed4c7f43e84f78f82b1febc0b2b5ac3a3b4
 }
