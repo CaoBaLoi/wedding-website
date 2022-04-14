@@ -141,7 +141,6 @@
     font-family: 'Signatie';
     margin-bottom: 10px;
 }
-
 .bethany-slider-title a,
 .bethany-slider-subtitle a {
     color: #000;
@@ -207,7 +206,6 @@
     text-align: center;
     transform: rotate(-30deg);
 }
-
 /* wedding-date */
 .bg-1{
     background-color: rgb(255, 248, 244);
@@ -277,7 +275,6 @@ width: 100px;
     border-top: 1px solid #a2783a;
     margin: 0 0 20px 0;
 }
-
 /* client-love */
 .client-love {
   position: relative;
@@ -343,12 +340,10 @@ width: 100px;
 .client-love h6 {
     color: #fff;
 }
-
 .client-love .line-hr-center {
     width: 60px;
     border-top: 1px solid #fff;
 }
-
 .client-love .sec-head .tbg {
     color: #fff;
     opacity: 0.25;
@@ -557,7 +552,6 @@ width: 100px;
     font-weight: 400;
     line-height: 1.25em;
 }
-
 .footer .sub-footer .text-right-left {
     text-align: right!important;
 }
@@ -587,8 +581,6 @@ width: 100px;
     -webkit-transition: all .5s;
     transition: all .5s;
 }
-
-
 /* banner */
 .banner-header {
     height: 50vh;
@@ -603,13 +595,8 @@ width: 100px;
     margin-top: 105px;
     background-size: cover;
     background-position: center;
-<<<<<<< HEAD
-
-=======
->>>>>>> 3e4877233061edde3090b8a7c06cc21ad757bcd3
     background-attachment: fixed;   
 }
-
 .banner-header .background {
     position: absolute;
     top: 0;
@@ -619,7 +606,6 @@ width: 100px;
     z-index: -1;
     filter:brightness(90%);
 }
-<<<<<<< HEAD
 .banner-header .row h1{
     margin: 120px 0 120px 0;
     color: #FFFFFF;
@@ -650,8 +636,6 @@ width: 100px;
 .banner-portfolio{
     background-image: url(../images/banner/2.jpg);  
 }
-=======
->>>>>>> 3e4877233061edde3090b8a7c06cc21ad757bcd3
 .banner-header .background {
     position: absolute;
     top: 0;
@@ -695,7 +679,6 @@ width: 100px;
     outline: none;
     width: 100%;
 }
-
 .services-caption {
     position: absolute;
     left: 50%;
@@ -869,16 +852,11 @@ width: 100px;
 .faqs-accordion .accordion .accordion-info ul {
     list-style-type: disc;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 3e4877233061edde3090b8a7c06cc21ad757bcd3
 /*  Creative team */
 .Creative {
     background-color: #fff;
     padding: 120px 0 120px 0;
 }
-
 .Creative .container{
     width: 1140px;
     height: 550px;
@@ -892,7 +870,6 @@ width: 100px;
     border-bottom: 1.5px solid #a2783a ;
     height: 52px;
 }
-
 .Creative .row .col{
     text-align: center;
     margin-top: 20px;
@@ -914,7 +891,6 @@ width: 100px;
     text-align: center;
     font-family: 'Nunito Sans', sans-serif;
 }
-<<<<<<< HEAD
 /* Photo Gallery */
 .ti-heart {
     height: auto;
@@ -977,7 +953,6 @@ width: 100px;
     text-decoration: none solid rgb(255,255,255);
     height: auto;
     width: auto;
-    position color: #FFFFFF;
 }
 .bg-1 .container .row .vid-icon img{
     font-family:'Nunito Sans', sans-serif;
@@ -986,10 +961,6 @@ width: 100px;
     width: 100%;
     margin: 0 0 20px 0;
 }
-
-
-=======
-<<<<<<< HEAD
 /* Contact */
 .Contact{
     padding: 120px 0 120px 0;
@@ -1044,8 +1015,6 @@ width: 100px;
     font-family: 'Old Standard TT', serif;
     padding: 0 15px 0 15px;
 }
-
-=======
  /* Admin header*/
 body{
     background-color: rgba(236, 248, 129, 0.295);
@@ -1135,7 +1104,6 @@ body{
 }
 .box .row{
     border-bottom: #000 1.5px solid;
-
 }
 .row-active{
     text-align: center;
@@ -1158,5 +1126,3 @@ body{
 .password .row{
     padding-left: 15px;
 }
->>>>>>> 7d820fcb6c3cdb6addee350558a7079123c0562c
->>>>>>> 3e4877233061edde3090b8a7c06cc21ad757bcd3
