@@ -81,3 +81,22 @@ $('.price .owl-carousel').owlCarousel({
         }
     }
 });
+$('.Creative .owl-carousel').owlCarousel({
+    loop: true
+    , margin: 30
+    , dots: true
+    , mouseDrag: true
+    , autoplay: false
+    , responsiveClass: true
+    , responsive: {
+        0: {
+            items: 1
+        }
+        , 600: {
+            items: 2
+        }
+        , 1000: {
+            items: 2
+        }
+    }
+});
