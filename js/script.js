@@ -8,14 +8,21 @@ $(document).ready(function(){
         slidesToShow: 3,
         slidesToScroll: 3,
         responsive: [
-        {
-            reakpoint: 768,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
+            {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
             }
-    }
-    ]
+        ]
     });
 })
 $('.slide-2 .owl-carousel').owlCarousel({

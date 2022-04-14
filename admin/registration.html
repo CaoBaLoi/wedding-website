@@ -26,21 +26,25 @@
         <h2>Registration</h2>
         <form>
           <div class="user-box row">
-            <input type="text" name="" required="">
+            <input type="text" name="" required="" id="username">
+            <span id="statusOfusername"></span>
             <label>Username</label>
           </div>
           <div class="user-box row">
-            <input type="password" name="" required="">
+            <input type="password" name="" required="" id="password">
+            <span id="statusOfpassword"></span>
             <label>Password</label>
           </div>
           <div class="user-box row">
-            <input type="text" name="" required="">
+            <input type="text" name="" required="" id="comfirmPassword">
+            <span id="statusOfComfirm"></span>
             <label>Comfirm Password</label>
           </div>
-          <a href="#">
+          <a href="#" id="btnsubmit">
             Submit
           </a>
         </form>
     </div>
+    <script src="../admin/js/scrpit.js"></script>
 </body>
 </html>
